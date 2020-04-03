@@ -6,7 +6,7 @@ row_index = 0
 while row_index < src.count do 
   element_index = 0 
   if element_index < src[row_index].count
-    src[row_index].sort.reverse!
+    src[row_index].sort!
     smaller_numbers_array << src[row_index].pop
   end
   row_index += 1
